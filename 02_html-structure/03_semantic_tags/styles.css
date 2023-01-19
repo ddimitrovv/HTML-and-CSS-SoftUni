@@ -1,0 +1,24 @@
+body {
+    background-color: #f9f7cf;
+}
+
+header {
+    background-color: #f2dcbb;
+    /* left: 15px;
+    right: 15px;
+    bottom: 5px; */
+}
+
+footer {
+    background-color: #f2dcbb;
+    position: fixed;
+    /* left: 15px;
+    right: 15px;
+    bottom: 5px; */
+}
+
+header, footer, p {
+    left: 15px;
+    right: 15px;
+    bottom: 5px;
+}
