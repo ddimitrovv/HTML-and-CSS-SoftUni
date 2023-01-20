@@ -2,23 +2,26 @@ body {
     display: grid;
 }
 
-.viewport {
-    width: 100%;
-    height: auto;
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
     display: block;
-    /* position: absolute; */
-    margin: auto;
-    width: 50%;
-    height: auto;
+    position: absolute;
 }
 
 img {
-    display: block;
-    margin: 15%;
-    max-height: 75%;
+    max-width: 200px;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.viewport {
+    width: 100%;
+    height: 350px;
 }
 
 .viewport.first {
