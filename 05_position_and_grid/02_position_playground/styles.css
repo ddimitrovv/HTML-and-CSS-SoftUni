@@ -1,0 +1,32 @@
+body {
+    display: grid;
+}
+
+.viewport {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    display: block;
+    /* position: absolute; */
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+img {
+    display: block;
+    margin: 15%;
+    max-height: 75%;
+}
+
+.viewport.first {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,136,221,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.viewport.second {
+    background: rgb(255,0,99);
+    background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(255,235,0,1) 100%);
+}
