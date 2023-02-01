@@ -4,23 +4,40 @@ body {
 
 .card {
     background-color: rgb(255, 255, 255);
-    display: inline-flex;
-    flex-direction: column;
-    overflow: hidden;
+    position: relative;
+    width: 400px;
+    height: 420px;
 }
 
-/* img {
+img {
     position: absolute;
-} */
+    top: 0;
+    right: 0;
+    width: 400px;
+}
 
 a {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 2px;
     padding: 6px 16px;
-    border-radius: 5px;
-    float: right;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    /* margin: 25px 25px 25px auto; */
     text-decoration: none;
     color: white;
     background-color: rgb(0, 153, 0);
+}
+
+h3 {
+    display: inline-block;
+    position: absolute;
+    bottom: 95px;
+    left: 20px;
+}
+
+p {
+    display: inline-block;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
 }

@@ -1,0 +1,94 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 12px;
+}
+
+body > .body {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    grid-template-areas:
+    "main main aside";    
+}
+
+body div.body {
+    grid-area: main main aside;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav div {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 34px;
+    margin-top: 40px;
+}
+
+header nav ul {
+    font-size: 16px;
+    padding-top: 30px;
+    list-style-type: none;   
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    font-weight: 200;
+}
+
+div img {
+    float: right;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 8px;
+    margin: 0 12px;
+}
+
+blockquote {
+    border-left: 2px solid lightgray;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+blockquote p {
+    text-align: right;
+}
+
+.grid-text {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-areas:
+    "text blq"
+}
+
+.second-grid-text img {
+    float: left;
+    margin-left: 0;
+}
+
+.aside nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
