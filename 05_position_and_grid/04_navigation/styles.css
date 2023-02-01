@@ -67,6 +67,7 @@ div img {
 }
 
 blockquote {
+    font-family: Georgia, serif;
     border-left: 2px solid lightgray;
     padding-top: 5px;
     padding-left: 25px;
