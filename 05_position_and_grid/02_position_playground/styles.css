@@ -1,6 +1,5 @@
-body {
-    display: grid;
-}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+
 
 div {
     display: flex;
@@ -16,7 +15,6 @@ div {
 img {
     max-width: 200px;
     max-height: 300px;
-    object-fit: contain;
 }
 
 .viewport {
@@ -32,4 +30,18 @@ img {
 .viewport.second {
     background: rgb(255,0,99);
     background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(255,235,0,1) 100%);
+}
+
+.fa-star {
+    color: antiquewhite;
+    position: relative;
+    top: -5px;
+    left: -22px;
+}
+
+.fa-link {
+    color: antiquewhite;
+    position: relative;
+    top: -5px;
+    left: -25px;
 }
