@@ -1,4 +1,7 @@
-header, aside, main, footer {
+header,
+aside,
+main,
+footer {
     border-radius: 3px;
     background-color: rgb(181, 216, 255);
     padding: 5px 10px;
@@ -24,15 +27,33 @@ aside ul li a {
 
 body {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "header header"
         "aside main"
         "footer footer";
     grid-template-columns: 100px auto;
     gap: 10px;
+    width: 500px;
 }
 
-header { grid-area: header; }
-main { grid-area: main; }
-aside { grid-area: aside; }
-footer { grid-area: footer; }
+main ul li a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3px;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
