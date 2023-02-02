@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    margin: 12px;
+}
+
 ul {
     margin:60px;
     display: inline-block;
