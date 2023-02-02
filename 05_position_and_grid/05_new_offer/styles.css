@@ -1,16 +1,16 @@
 * {
     padding: 0;
     margin: 0;
-  }
-  
-  main {
+}
+
+main {
     width: 700px;
     height: 500px;
     margin: 60px;
-  }
-  
-  img.new {
+}
+
+img.new {
     position: relative;
     top: -200px;
     right: 150px;
-  }
+}
