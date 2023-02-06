@@ -25,7 +25,7 @@ a {
     display: inline-block;
     width: 40px;
     height: 40px;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: lightgray;
     text-align: center;
 }
@@ -40,22 +40,22 @@ i {
     color: black;
 }
 
-.facebook:hover {
+a:hover .facebook {
     color: #4267B2;
 }
 
-.twitter:hover {
+a:hover .twitter {
     color: #1DA1F2;
 }
 
-.google:hover {
+a:hover .google {
     color: #DB4A39;
 }
 
-.linkedin:hover {
+a:hover .linkedin {
     color: #0077B5;
 }
 
-.instagram:hover {
+a:hover .instagram {
     color: #405DE6;
 }
