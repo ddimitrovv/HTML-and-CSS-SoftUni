@@ -2,6 +2,13 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    align-items: middle;
+    justify-content: center;
+    height: 100vh;
+}
+
 .container {
     display: flex;
     max-width: 65vw;
