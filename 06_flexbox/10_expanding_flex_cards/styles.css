@@ -17,17 +17,19 @@ div {
     overflow: hidden;
 }
 
-div:not(:nth-child(2)) {
+div {
     width: 90px;
     height: 250px;
+    transition: 700ms;
 }
 
-div:nth-child(2) {
+div:hover {
     width: 400px;
     height: 250px;
     border-radius: 5px;
     border-left: 15px solid black;
     border-right: 15px solid black;
+    transition: 700ms;
 }
 
 .container {
