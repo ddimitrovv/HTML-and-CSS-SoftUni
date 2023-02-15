@@ -74,7 +74,8 @@ button {
 }
 
 @media (max-width:499px){
-    form {
+    form,
+    fieldset {
         width: 80%;
     }
 }
