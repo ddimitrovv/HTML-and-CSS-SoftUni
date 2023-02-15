@@ -4,7 +4,9 @@ body{
     display: flex;
     justify-content: center;
 }
-form {
+
+form,
+fieldset {
     position: relative;
     background-color: #f0f1f2;
     width: 400px;
