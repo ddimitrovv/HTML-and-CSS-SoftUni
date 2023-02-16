@@ -5,8 +5,8 @@ body {
   -45deg,
   #FFFFFF,
   #FFFFFF 10px,
-  #FFFEEF 10px,
-  #FFFEEF 20px
+  #fdfdfd 10px,
+  #fdfdfd 20px
 );
 }
 
@@ -57,6 +57,10 @@ header nav {
     justify-content: center;
     align-items: center;
     margin: 6%;
+}
+
+.need-a-website h2 {
+    text-decoration: none;
 }
 
 .need-a-website div {
