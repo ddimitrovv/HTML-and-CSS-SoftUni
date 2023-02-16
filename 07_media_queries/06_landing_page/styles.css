@@ -2,12 +2,17 @@
 
 body {
     background: repeating-linear-gradient(
-  225deg,
+  -45deg,
   #FFFFFF,
   #FFFFFF 10px,
   #FFFEEF 10px,
   #FFFEEF 20px
 );
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
 }
 /* ----------------------
    Header
@@ -67,6 +72,7 @@ header nav {
 
 .need-a-website p {
     font-size: 16px;
+    margin-bottom: 16px;
 }
 
 .need-a-website button {
@@ -155,6 +161,62 @@ section {
    Testimonials
    ---------------------- */
 
+.testimonials {
+    margin-bottom: 48px;
+}
+
 .testimonials .card__our-team p {
     margin-bottom: 16px;
+}
+
+hr {
+    border: none;
+    box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* ----------------------
+   Need a website
+   ---------------------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+footer div {
+    margin-right: 20px;
+}
+
+footer .spider {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 35%;
+}
+
+footer .spider p {
+    font-size: 16px;
+}
+
+footer .sitemap ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer .sitemap li {
+    font-size: 14px;
+}
+
+footer .contacts li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+footer .contacts li i {
+    margin-right: 4px;
+    font-size: 10px;
 }
