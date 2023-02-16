@@ -5,20 +5,28 @@ body{
     justify-content: center;
 }
 
-form,
-fieldset {
+form {
     position: relative;
     background-color: #f0f1f2;
     width: 400px;
     height: 140px;
     border-radius: 5px;
     margin-top: 50px;
-    padding: 22px;
+    padding: 48px 20px 20px 20px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
 }
 
 div{
@@ -73,9 +81,16 @@ button {
     margin-bottom: 20px;
 }
 
+input {
+  padding:10px;
+	font-family: "FontAwesome", "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
 @media (max-width:499px){
-    form,
-    fieldset {
+    form {
         width: 80%;
     }
 }
