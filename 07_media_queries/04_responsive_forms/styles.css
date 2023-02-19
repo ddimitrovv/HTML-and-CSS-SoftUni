@@ -77,3 +77,7 @@ input {
         width: 80%;
     }
 }
+
+input::placeholder {
+    color: #000000;
+}
