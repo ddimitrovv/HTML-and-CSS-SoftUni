@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+:root {
+    --bg-color: #f6e0b5;
+    --p-bg-color: #66545e;
+    --p-color: #f2f2e7;
+    --aside-li: #614f5c;
+}
+
+html {
+    font-family: "Montserrat";
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 32px;
+    margin-right: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 4px 4px 24px 28px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 400px;
+    height: 180px;
+    object-fit: fill;
+}
+
+.card p {
+    background-color: var(--p-bg-color);
+    padding: 6px 4px;
+    color: var(--p-color);
+    font-weight: bold;
+    text-align: left;
+}
+
+.card p a {
+    text-decoration: none;
+    color: var(--p-color);
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    color: var(--aside-li);
+}
+
+.aside h3 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.aside ul li {
+    margin-bottom: 8px;
+}
+
+.aside ul li a {
+    text-decoration: none;
+    color: var(--p-bg-color);
+}
+
+.aside ul li i {
+    margin-right: 6px;
+}
+
