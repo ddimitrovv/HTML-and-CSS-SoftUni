@@ -112,9 +112,11 @@ main h2 {
 
 main section {
     display: flex;
+    width: 75%;
     justify-content: center;
     align-items: center;
     color: black;
+    margin-bottom: 46px;
 }
 
 .cards {
@@ -122,13 +124,15 @@ main section {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5%;
+    gap: 2%;
     padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card {
-    width: 300px;
-    height: 600px;
+    width: 400px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     border-radius: 12px;
@@ -140,8 +144,8 @@ main section {
 }
 
 .card img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     margin-bottom: 16px;
 }
@@ -163,6 +167,7 @@ main section {
 
 
 footer {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: #070707;
@@ -188,7 +193,11 @@ footer ul li a{
     text-align: center;
 }
 
-footer i {
+
+.socials a {
     color:white;
-    margin-right: 8px;
+}
+
+.socials a:not(:last-child) {
+    margin-right: 22px;
 }
